@@ -1,54 +1,141 @@
 * {
-    /*border: red 1px solid;
- */
   box-sizing: border-box;
-
-  padding: 8px auto;
-  margin: 8px;
-
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
-  
+  padding: 8px auto;
+  margin-inline-start: 8px;
+
 }
 
-header{
+/* Header : Fixed nav. bar */
+header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 0px 8px;
+  margin: 2px 0px;
 }
 
-ul {
-  list-style-type: none;
-}
-.navigation-bar > ul {
+.navigation-bar>ul {
   display: flex;
+  align-content: space-around;
+  list-style-type: none;
+  padding: 8px;
 }
 
-ul > li {
-  border: red 5px solid;
+ul>li {
+  margin-left: 10px;
 }
 
-img {
-  width: 30%;
-}
+/* Header : Fixed nav. bar */
 
 .jumbotron {
   background-color: hsla(215, 39%, 79%, 0.805);
   display: flex;
+  padding: 8px 64px;
+}
+
+.jumbotron>.part-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery {
-  background-color: pink;
   display: flex;
-
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 2em;
+  flex-wrap: wrap;
 }
+
+.gallery>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 0px;
+  flex: 1 1 0px;
+  background-color: lightpink;
+  border: white solid 1px;
+}
+
+.gallery>div>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.gallery>div>div>img {
+  min-width: 10%;
+  width: auto;
+  height: 300px;
+}
+
 
 .testimonials {
   background-color: lightskyblue;
+  padding: 20px;
+  margin: 2px 0px;
 }
 
+.testimonials>blockquote {
+  padding: 20px 120px;
+}
 
 .call-to-action {
-  background-color: sandybrown;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+
+
+}
+
+.call-to-action>.cta {
+  padding: 5px 40px;
+  margin: 20px auto;
+  border-radius: 10px;
+
+  background-color: #3882F6;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.call-to-action>.cta>div {
+  padding: 5px;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.call-to-action>.cta>div>button {
+  display: inline-block;
+  background-color: #3882F6;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+footer{
+  border-top: #3882F6 1px solid ;
+  text-align: center;
+  color : #0a1c39 ;
+;
 }
