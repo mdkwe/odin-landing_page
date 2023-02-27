@@ -10,7 +10,7 @@ The website will consist of a header, a section for articles about the topic, an
 
 Screenshot of the project : 
 >
-<img src="/images/screenshot_page.png" alt="Screenshot of the output" style="height: 300px; width:100px;"/>
+<img src="/images/screenshot_page.png" alt="Screenshot of the output" style="width: 300px; height:auto;"/>
 
 This project will help me to put into practice all the HTML and CSS (with Flexbox) knowledge I've acquired.
 
