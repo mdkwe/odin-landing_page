@@ -7,10 +7,11 @@ Welcome to the Momentum repository! This project is part of my "Full Stack Devel
 
 The website will consist of a header, a section for articles about the topic, an inspiration quote, and a footer. The design provided is quite neutral, so I decided to apply it to this fictitious project.
 
-
-Screenshot of the project : 
+- Screenshot of the project : 
 >
-<img src="/images/screenshot_page.png" alt="Screenshot of the output" style="width: 300px; height:auto;"/>
+<img src="/images/screenshot_page.png" alt="Screenshot of the output" style="width: 400px; height:auto;"/>
+
+- Link to view the project on the web : <a href = "https://mdkwe.github.io/odin-landing_page/">HERE</a>
 
 This project will help me to put into practice all the HTML and CSS (with Flexbox) knowledge I've acquired.
 
